@@ -1,0 +1,59 @@
+<!--{% load static %}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+    <link type="text/css" href="{% static 'aset/css/styles.css' %}" rel="stylesheet" />
+    <title>Portfolio1</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="#">О сайте</a></li>
+            <li class="link"><a href="#">Блог</a></li>
+            <li class="link"><a href="#">Обратная связь</a></li>
+            <!-- <li class="link"><a href="#">Войти</a></li> -->
+        </ul>
+        <button class="btn">Авторизация</button>
+    </nav>
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <!-- <h4>Барлығын мүмкіндігінше қарапайым етіп жасау керек. Бірақ бұл оңай емес.</h4> -->
+            <h1>Кәден Әсет</h1>
+            <p>
+                Мен тек Backend пен Data
+                engineering оқып білім
+                алып жатырмын
+            </p>
+            <!-- <button class="btn">Узнать больше</button> -->
+        </div>
+        <div class="image">
+            <img src="{% static 'header.png' %}" width="600">
+        </div>
+    </header>
+
+    <header class="container1">
+        <div class="content1">
+            <span class="blur1"></span>
+            <span class="blur1"></span>
+            <!-- <h4>Барлығын мүмкіндігінше қарапайым етіп жасау керек. Бірақ бұл оңай емес.</h4> -->
+            <h1>Бұл кім?</h1>
+            <p>
+                Мен өзімді Backend-тен тауып алдым. Бір жыл бұрын Техникалық факультетінде жүргенде
+                сенбейтінмін, Айти саласына кетемін деп. Бірақ Alem School менің көзқарасымды өзгертті.
+                Бұл менің әңгімем. Piece.
+            </p>
+            <!-- <button class="btn">Узнать больше</button> -->
+        </div>
+    </header>
+
+    <!-- Остальной HTML код, который закомментирован, оставлен без изменений -->
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
+
